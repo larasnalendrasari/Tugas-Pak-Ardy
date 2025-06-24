@@ -1,0 +1,145 @@
+body {
+  font: 16px arial, sans-serif;
+  background-color: azure;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color:  #f367de;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+}
+.header {
+  padding: 15px;
+  text-align: center;
+
+}
+.judul {
+  color: #1a1017;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  margin-right: -21px;
+}
+.judul:hover {
+  color: rgb(28, 24, 27);
+  text-decoration: none;
+  
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: transform 0.2s ease-in-out;
+}
+.header ul li:hover {
+  transform: scale(1.1);
+}
+.header a {
+  text-decoration: none;
+  color: #4846c4;
+  padding: 3px;
+}
+.header a:hover {
+  color:  pink;
+  background-color: lightgray;
+  border-radius: 10px;
+
+}
+
+.garis {
+  border-top: #FADADD 5px solid;
+  border-bottom: #FADADD 5px solid;  
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);    
+}
+.content {
+  padding: 20px;
+
+}
+.content .judul-kecil {
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer {
+  color: #ec5891;
+  background-color: #FADADD;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);    
+  font-family: sans-serif;
+}
+.berita {
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.berita-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.berita-item {
+  display: flex;
+  border: 3px solid 
+  background-color: #ffe6e6;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+}
+
+.berita-gambar {
+  width: 30%;
+  height: 200px;
+}
+
+.berita-gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+.berita-gambar img:hover {
+ transform: scale(1.1);
+}
+.berita-konten {
+  width: 70%;
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+ 
+}
+
+.berita-konten h2 {
+  color: #d62598;
+  margin-top: 0;
+}
+
+.berita-konten p {
+  text-align: justify;
+  color: #333;
+}
+
+.berita-konten a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.berita-konten a:hover {
+  text-decoration: underline;
+}

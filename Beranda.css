@@ -1,0 +1,72 @@
+body {
+    font: 10px arial, sans-serif;
+    background-color: rgb(250, 233, 245);
+}
+.countainer {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(211, 107, 171);
+    border-radius: 20px;
+    padding: 20px;
+}
+.header {
+    padding: 15px;
+    text-align: center;
+}
+.judul {
+    font-size: 40px;
+}
+.judul:hover {
+    color: rgb(237, 232, 235);
+    text-decoration: underline;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(35, 23, 206);
+    padding: 3px;
+    text-align: center;
+}
+.header a:hover {
+    color:rgb(212, 155, 200);
+    background-color: rgb(214, 109, 170);
+}
+.gambar {
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 14/ 9;
+    background-image: url("gambar saya.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    border-top: 10px solid rgb(230, 180, 222);
+    border-bottom: 10px solid rgb(230, 180, 222);
+}
+.content {
+    padding: 20px;
+}
+.content .judul-kecil {
+    font-size: 25px;
+    font-weight: bold;
+}
+.content .penulis {
+    font-size: 12px;
+    margin-top: -15px;
+    font-style: italic;
+}
+.content .penulis {
+    text-decoration: none;
+    color: rgb(30, 11, 137);
+}
+.footer {
+    background-color: rgb(211, 63, 162);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
