@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  padding: 0;
+  background-color:  #fff0f5;
+  font-family: Arial, sans-serif;
+  color:  #4a1c40;;
+}
+.card {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #ffc0cb;
+  padding: 20px;
+ 
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.judul {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+.menu-line {
+  border-top: 2px solid rgb(244, 235, 241);
+  width: 100%;
+  margin: 10px 0;
+  align-items: normal;
+
+}
+.judul-datadiri {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.foto {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.biodata {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.garis-bawah {
+  border-top: 2px solid rgb(244, 235, 241);
+  width: 100%;
+  margin: 10px 0;
+  align-items: normal;
+}
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  margin: 5px 0;
+}
